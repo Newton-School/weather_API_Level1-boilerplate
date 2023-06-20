@@ -25,6 +25,20 @@ async function saveDataToDatabase(data) {
   });
 }
 
+
+/*
+  Instructions for students:
+  Implement the function getWeatherDataByName(cityName) that retrieves the weather data for a given city name.
+
+  Database:
+    - The weather data is stored in the 'src/data/data.json' file.
+
+  Tips:
+    - Use the getDataFromDatabase() function to retrieve the data from the database.
+    - Iterate through the weather data array and check if the 'city' property matches the given cityName.
+    - Return the appropriate response based on the search result.
+*/
+
 // Level 1: Get City Weather Data by Name
 async function getWeatherDataByName(cityName) {
    // TODO: Implement this function
